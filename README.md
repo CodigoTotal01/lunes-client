@@ -1,22 +1,21 @@
-# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023
+# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, Postgresql
 
-This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
+Este es un repositorio para un Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, Postgresql
 
-## MAKE SURE YOU HAVE [ADMIN](https://github.com/GersonRocha9/ecommerce-admin) SETUP FIRST!
+Características principales:
 
-Key Features:
+- ¡Vamos a utilizar Shadcn UI para el Admin!
+- ¡Nuestro panel de control de administración va a servir como CMS, Admin y API!
+- ¡Usted será capaz de controlar múltiples vendedores / tiendas a través de este único CMS! (Por ejemplo, usted puede tener una "tienda de zapatos" y una "tienda de portátiles" y una "tienda de trajes", y nuestro CMS generará rutas API para todos ellos individualmente).
+- Podrá crear, actualizar y eliminar categorías.
+- Podrá crear, actualizar y eliminar productos.
+- ¡Podrás subir múltiples imágenes para los productos, y cambiarlas cuando quieras!
+- Podrá crear, actualizar y eliminar filtros como "Color" y "Talla", y luego hacerlos coincidir en el formulario de creación de "Producto".
+- Podrá crear, actualizar y eliminar "Carteles", que son esos grandes textos que aparecen en la parte superior de la página. Podrá adjuntarlos a una sola categoría, o utilizarlos de forma independiente (¡Nuestro Admin genera API para todos esos casos!)
+- Podrá buscar en todas las categorías, productos, tallas, colores y carteles con paginación incluida.
+- ¡Usted será capaz de controlar qué productos son "destacados" para que se muestren en la página principal!
+- Podrá ver sus pedidos, ventas, etc.
 
-- We will be using Shadcn UI for the Admin!
-- Our admin dashboard is going to serve as both CMS, Admin and API!
-- You will be able to control mulitple vendors / stores through this single CMS! (For example you can have a "Shoe store" and a "Laptop store" and a "Suit store", and our CMS will generate API routes for all of those individually!)
-- You will be able to create, update and delete categories!
-- You will be able to create, update and delete products!
-- You will be able to upload multiple images for products, and change them whenever you want!
-- You will be able to create, update and delete filters such as "Color" and "Size", and then match them in the "Product" creation form.
-- You will be able to create, update and delete "Billboards" which are these big texts on top of the page. You will be able to attach them to a single category, or use them standalone (Our Admin generates API for all of those cases!)
-- You will be able to Search through all categories, products, sizes, colors, billboards with included pagination!
-- You will be able to control which products are "featured" so they show on the homepage!
-- You will be able to see your orders, sales, etc.
 - You will be able to see graphs of your revenue etc.
 - You will learn Clerk Authentication!
 - Order creation
@@ -24,11 +23,18 @@ Key Features:
 - Stripe webhooks
 - MySQL + Prisma + PlanetScale
 
-### Prerequisites
+- Podrás ver gráficos de tus ingresos, etc.
+- ¡Aprenderá Autenticación de Clerk!
+- Creación de pedidos
+- Pago con Stripe
+- Webhooks de Stripe
+- Postgresql + Prisma + PlanetScale
 
-### Install packages
+### Prerrequisitos
 
-```shell
+### Instalar paquetes
+
+``shell
 npm i
 ```
 
@@ -38,16 +44,16 @@ npm i
 NEXT_PUBLIC_API_URL=
 ```
 
-### Start the app
+### Iniciar la aplicación
 
 ```shell
 npm run dev
 ```
 
-## Available commands
+## Comandos disponibles
 
-Running commands with npm `npm run [command]`
+Ejecutar comandos con npm `npm run [command]`
 
-| command | description                              |
+| comando | descripción |
 | :------ | :--------------------------------------- |
-| `dev`   | Starts a development instance of the app |
+| `dev` | Inicia una instancia de desarrollo de la aplicación |
